@@ -7,9 +7,8 @@
     fixed
   >
     <v-toolbar-side-icon @click.stop="$emit('toggleDrawer')"></v-toolbar-side-icon>
-    <v-toolbar-title style="width: 300px" class="ml-0 pl-3">
-      
-      <span class="hidden-sm-and-down">Title</span>
+    <v-toolbar-title style="width: 300px" class="ml-0 pl-3">      
+      <span class="hidden-sm-and-down">{{ name }}</span>
     </v-toolbar-title>
     <v-toolbar-items style="flex: 1">
       <v-menu offset-y :nudge-right="80" style="margin-left: auto;">

@@ -4,7 +4,7 @@
       <v-card class="blue lighten-4 pa-3">
         <v-layout >
           <v-flex xs12 class="text-xs-center">
-            <h2 style="color: #2d87be; margin: 20px 0">Title</h2>
+            <h2 style="color: #2d87be; margin: 20px 0">{{ name }}</h2>
           </v-flex>              
         </v-layout>
         <v-layout class="pl-3 pr-3">

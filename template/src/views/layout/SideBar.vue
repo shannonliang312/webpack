@@ -32,7 +32,7 @@
         <v-card-media src='static/bg-login.jpg' height="200px"></v-card-media>
         <v-card-title primary-title >
           <div class="text-xs-center" style="width: 100%">
-            <span class="headline">浪潮内网主机监测平台</span>
+            <span class="headline">{{ name }}</span>
             <h6>Version: V1.0.0</h6>
             <span>Copyright 2017 Inspur Group</span><br />
             <span>All rights reserved</span>
